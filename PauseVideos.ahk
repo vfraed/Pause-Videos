@@ -18,6 +18,7 @@ SetTitleMatchMode, 2 ; sets title matching to search for "containing" isntead of
 DllCall("SetThreadDpiAwarenessContext", "ptr", -4, "ptr") ;Set the DPI awareness for the current thread to the provided value.
 ; include the ACC library to get the caret location.
 #Include <Acc>
+#Requires AutoHotkey v1.1.33+ ; Needs AHK version 1.1.33
 
 controlID := 0 ;sets controlID to 0 every time the script is reloaded
 Return
